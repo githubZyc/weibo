@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="weibo:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/weibo_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="weibo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="jstl-1.1.2.jar" module-name="weibo" />
+          <element id="library" level="module" name="commons-beanutils-1.7.0.jar" module-name="weibo" />
+          <element id="library" level="module" name="commons-collections-3.1.jar" module-name="weibo" />
+          <element id="library" level="module" name="commons-lang-2.5.jar" module-name="weibo" />
+          <element id="library" level="module" name="commons-logging-1.1.3.jar" module-name="weibo" />
+          <element id="library" level="module" name="ezmorph-1.0.3.jar" module-name="weibo" />
+          <element id="library" level="module" name="hibernate-commons-annotations-4.0.2.Final.jar" module-name="weibo" />
+          <element id="library" level="module" name="javassist-3.18.1-GA.jar" module-name="weibo" />
+          <element id="library" level="module" name="jboss-logging-3.1.0.GA.jar" module-name="weibo" />
+          <element id="library" level="module" name="jboss-transaction-api_1.1_spec-1.0.1.Final.jar" module-name="weibo" />
+          <element id="library" level="module" name="json-lib-2.1-jdk15.jar" module-name="weibo" />
+          <element id="library" level="module" name="mchange-commons-java-0.2.11.jar" module-name="weibo" />
+          <element id="library" level="module" name="standard-1.1.2.jar" module-name="weibo" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="weibo/web/Web" />
+    </root>
+  </artifact>
+</component>
